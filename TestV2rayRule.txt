@@ -1,0 +1,19 @@
+"routing": {
+  "rules": [
+    {
+      "type": "field",
+      "outboundTag": "Direct",
+      "ip": [
+        "212.80.19.12"
+      ]
+    },
+    {
+      "type": "field",
+      "outboundTag": "Proxy",
+      "ip": [
+        "0.0.0.0/0",
+        "::/0"
+      ]
+    }
+  ]
+}
